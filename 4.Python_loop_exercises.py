@@ -4,7 +4,7 @@
 # Expected result: 0,1,3,5,7,9,11,13,15,17
 prev_num=0
 for i in range(0,11):
-x=i+prev_num
-prev_num=i
-print(x,end=" ")
+    x = i + prev_num
+    prev_num = i
+    print(x,end=" ")
 # 0 1 3 5 7 9 11 13 15 17 19
